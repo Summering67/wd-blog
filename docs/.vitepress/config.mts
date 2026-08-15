@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "wd的学习笔记",
   description: "Happy Study",
+  base: '/wd-blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
