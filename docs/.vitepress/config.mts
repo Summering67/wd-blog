@@ -27,7 +27,7 @@ export default defineConfig({
         {
           text: '香港',
           items: [
-            { text: '专栏首页', link: '/香港/' }
+            { text: '寺庙求签', link: '/香港/寺庙求签' }
           ]
         }
       ],
