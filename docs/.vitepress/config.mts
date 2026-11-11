@@ -10,7 +10,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
-      { text: '香港', link: '/香港/' },
       {
         text: '后端',
         items: [
@@ -23,14 +22,6 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/香港/': [
-        {
-          text: '香港',
-          items: [
-            { text: '寺庙求签', link: '/香港/寺庙求签' }
-          ]
-        }
-      ],
       '/后端/': [
         {
           text: 'Express',
